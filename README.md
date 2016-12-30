@@ -9,9 +9,9 @@ anytime and anywhere. To run the script use the next steps:
 
 1. `git clone https://github.com/Marketionist/clean-modules-aliases.git`
 1. `cd clean-modules-aliases/`
-1. `bash add-aliases.sh`
+1. `source add-aliases.sh`
 
-If you are getting "=> Files .bashrc and .bash_profile are missing, create one
+If you are getting "[clean-modules-aliases]: Files .bashrc and .bash_profile are missing, create one
 of them to add aliases" - you can create one of this files by running
 `touch ~/.bashrc` or `touch ~/.bash_profile`.
 
@@ -26,7 +26,7 @@ Just run in your terminal/command line:
 
 - `clean` to clean node_modules, bower directories and corresponding cache
 - `reinst` to clean node_modules, bower directories and corresponding cache +
-reinstall node and bower modules/packages
+    reinstall node and bower modules/packages
 
 ## Thanks
 
